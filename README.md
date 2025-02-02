@@ -10,7 +10,7 @@
 ✅ Clean and intuitive user interface  
 
 ## **🛠 Tech Stack**  
-- Frontend: React 
+- Frontend: React ,three.js
 - Styling: Tailwind CSS / Bootstrap / Custom CSS  
 - API Integration: Fetch API / Axios  
 
