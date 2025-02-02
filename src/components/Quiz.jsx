@@ -11,7 +11,7 @@ const Quiz = () => {
 
   useEffect(() => {
     // Fetch quiz data from the API
-  fetch("https://api.jsonserve.com/Uw5CrX")
+  fetch("https://corsproxy.io/?https://api.jsonserve.com/Uw5CrX")
     .then((response) => response.json())
       .then((data) => {
         console.log("Quiz Data:", data);
