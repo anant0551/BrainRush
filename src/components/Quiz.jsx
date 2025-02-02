@@ -12,7 +12,7 @@ const Quiz = () => {
   useEffect(() => {
     // Fetch quiz data from the API
     fetch("/api/Uw5CrX")
-      .then((response) => response.text())
+      .then((response) => response.json())
       .then((data) => {
         console.log("Quiz Data:", data);
         // Set the questions state with the fetched data
