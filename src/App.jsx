@@ -6,7 +6,7 @@ import { assets } from "./assets/assets";
 
 const App = () => {
   const [quizStarted, setQuizStarted] = useState(false);
-
+ 
   const startQuiz = () => {
     setQuizStarted(true);
   };
@@ -15,11 +15,12 @@ const App = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setVisible(true), 100); // Delay to trigger animation
+    setTimeout(() => setVisible(true), 100);
+    const newOpacity= Math.max(0,1 - (daysPassed * 0.05) ;// Delay to trigger animation
   }, []);
 
   return (
-    <div className={`relative min-h-screen bg-transparent overflow-hidden transition-opacity duration-1000 ${visible ? "opacity-100" : "opacity-0"}`}>
+    <div style = {{opacity}} className={`relative min-h-screen bg-transparent overflow-hidden transition-opacity duration-1000 ${visible ? "opacity-100" : "opacity-0"}`}>
       {/* Ballpit (Canvas) covering the full screen */}
       <div
         style={{
