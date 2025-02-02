@@ -33,5 +33,13 @@
    ```  
 
 ## **📷 Screenshots & Demo**  
-*(Include images of the UI and a short video walkthrough here.)*
+### 1. Home Page
+![Start](src/assets/start.png)
+
+### 2. Quiz
+![Quiz](src/assets/quiz.png)
+
+### 3. Result
+![Results](src/assets/result.png)
+
 
